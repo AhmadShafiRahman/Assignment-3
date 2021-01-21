@@ -2,7 +2,7 @@
 
 // Problem - 1 
 function kilometerToMeter(kilometer){
-    if(kilometer <= 0){                // distance cannot be negative.
+    if(kilometer < 0){                // distance cannot be negative.
         return -1;
     }
     else{
